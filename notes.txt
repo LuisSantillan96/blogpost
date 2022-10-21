@@ -39,4 +39,4 @@ git stash branch BrancheName --> Creamos una rama donde guardamos el stash
 git stash list --> Vemos la lista de los stash que hemo hecho/tenemos
 git clean --dry-run --> Elimina arachivos no deciados(Archivos no Carpetas ni los que pusimos en .gitignore)
 git clean -f --> Aplicamos el git clean una vez visto los archvios que se eliminaran
-
+git cherry-pick +idcommit --> Agregamos lo que se modifico solamente en ese commit a la branch que queramos(Debemos estar en el branch donde lo queremos)
