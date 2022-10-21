@@ -33,3 +33,4 @@ git show-ref --tags --> Vemos que tag esta agregado a que commit
 git push origin --tags --> Enviamos los tags al repo
 git tag -d v0.1 --> Elimino un tag | Hay que hacer push de tags para actualizar
 git push origins :refs/tags/v0.1 --> Elimina el tag del repo remoto | Hay que hacer push de tags para actualizar
+git stash --> Guarda los cambios sin hacer push mientras cambiamos de rama de manera local
