@@ -1,0 +1,35 @@
+--- GITHUB NOTES ---
+
+git init ---> Inicia git/Repositorio
+git add archivo.txt --> Add un arichivo
+git commit -m "Version1" --> Agrega el/los archivos a stageLocal
+git status --> Ver el estado del repositorio
+git show --> Muestra los cambios que hemos hecho
+git log archivo.txt --> Historia de un archivo
+git log --stat --> Vemos la cantidad de cambios que se le hicieron a los archivos
+git log --all --graph --decorate --online --> La historia mas comprimida y facil de vizualizar
+git push --> Subir el contenido al repositorio remoto
+git pull --> Actualizamos el repo si esque alguien subio cambios
+git pull origin main --> Actualizar el repo espesificando el branch
+git rm --cached archivo.txt --> Elimina archivo agregado a git stageLocal
+git log archivo.txt --> Nos muestra los cambios que se le han hecho y quienes etc.
+git show archivo.txt --> Nos muestra los cambiso dentro del archivo
+git diff --> Vemos las diferencia entre el archivo y lo que hay en el stageLocal
+git diff +id +id --> Muestras las comparaciones de ambos commits
+git checkout +id archivo.txt --> Nos muestra el archivo en ese commit en esoesifico
+git checkout master archivo.txt --> Muestra el archivo en la rama master
+git reset +id --hard --> Vueleve al estado que queremos TODO
+git reset +id --soft --> Vueleve al estado que queremos Lo de stageLocal sigue ahi
+git branch nombre --> Crear una nueva branch
+git chekout nameBranch --> Moverme de branch
+git merge brabchX --> Hace la combinacion de la rama enn la que este con la que invicamos en en el comando
+git remote add origin +url --> agregamos el repositorio remoto GITHUB
+git remote --> Vemos el estado de a donde guardamos
+git remote -v --> Vemos la direccion del origin y la url
+alias nombre = git push --> Creamos un atajo de un comando de git (Sirve en comandos grandes)
+git tag -a v0.1 -m "Primer vesion" +idcommit --> Crea una identificacion del codigo en version o como lo organicemos
+git tag --> Muestra la lista de todos los tags
+git show-ref --tags --> Vemos que tag esta agregado a que commit
+git push origin --tags --> Enviamos los tags al repo
+git tag -d v0.1 --> Elimino un tag | Hay que hacer push de tags para actualizar
+git push origins :refs/tags/v0.1 --> Elimina el tag del repo remoto | Hay que hacer push de tags para actualizar
