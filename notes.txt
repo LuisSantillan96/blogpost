@@ -20,6 +20,8 @@ git checkout +id archivo.txt --> Nos muestra el archivo en ese commit en esoesif
 git checkout master archivo.txt --> Muestra el archivo en la rama master
 git reset +id --hard --> Vueleve al estado que queremos TODO
 git reset +id --soft --> Vueleve al estado que queremos Lo de stageLocal sigue ahi
+git branch -r --> Vemos las ramas que estan remotas en el server
+git branch -a --> Vemos las ramas que estan locales y remotas en el server
 git branch nombre --> Crear una nueva branch
 git chekout nameBranch --> Moverme de branch
 git merge brabchX --> Hace la combinacion de la rama enn la que este con la que invicamos en en el comando
