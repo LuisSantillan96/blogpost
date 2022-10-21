@@ -40,3 +40,15 @@ git stash list --> Vemos la lista de los stash que hemo hecho/tenemos
 git clean --dry-run --> Elimina arachivos no deciados(Archivos no Carpetas ni los que pusimos en .gitignore)
 git clean -f --> Aplicamos el git clean una vez visto los archvios que se eliminaran
 git cherry-pick +idcommit --> Agregamos lo que se modifico solamente en ese commit a la branch que queramos(Debemos estar en el branch donde lo queremos)
+git grep +palabra --> Busca cuantas veces esta esa palabara en el repo
+git grep -n +palabra --> Busca cuantas veces esta esa palabara en el repo y su linea y file
+
+
+---- COMANDOS COLABORATIVOS ----
+
+git shortlog --> Muestra los commit de cada miembro del equipo
+git shortlog -sn --> Muestra los commit de cada miembro del equipo mas espesificando
+git shortlog -sn --all --> Muestra los commit de cada miembro del equipo incloso los borrados
+git shortlog -sn --all --no-merges  --> Muestra los commit de cada miembro del equipo sin los merges
+git blame archivo.txt --> Ver quien modifco que..
+
