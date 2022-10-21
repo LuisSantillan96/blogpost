@@ -34,3 +34,9 @@ git push origin --tags --> Enviamos los tags al repo
 git tag -d v0.1 --> Elimino un tag | Hay que hacer push de tags para actualizar
 git push origins :refs/tags/v0.1 --> Elimina el tag del repo remoto | Hay que hacer push de tags para actualizar
 git stash --> Guarda los cambios sin hacer push mientras cambiamos de rama de manera local
+git stash pop --> Al volver a la rama donde se aplico el stash se recupera
+git stash branch BrancheName --> Creamos una rama donde guardamos el stash
+git stash list --> Vemos la lista de los stash que hemo hecho/tenemos
+git clean --dry-run --> Elimina arachivos no deciados(Archivos no Carpetas ni los que pusimos en .gitignore)
+git clean -f --> Aplicamos el git clean una vez visto los archvios que se eliminaran
+
